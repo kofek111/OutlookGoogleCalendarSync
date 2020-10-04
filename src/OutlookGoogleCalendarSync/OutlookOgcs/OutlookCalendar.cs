@@ -894,7 +894,7 @@ namespace OutlookGoogleCalendarSync.OutlookOgcs {
                 }
 
             } else {
-                return GetCategoryColour(gColourId ?? Settings.Instance.UseGoogleCalendar.ColourId);
+                return GetCategoryColour(gColourId ?? "0");
             }
         }
         public String GetCategoryColour(String gColourId, Boolean createMissingCategory = true) {
